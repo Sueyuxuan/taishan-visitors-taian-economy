@@ -9,9 +9,9 @@ This project investigates the synchronicity between Mount Tai's tourist volume (
 
 ## 研究背景与动机 / Background and Motivation
 
-我在泰山脚下长大。这些年我注意到一个越来越明显的现象:尤其是周末和小长假,泰山挤满了游客,山门口排长队、缆车站人山人海;但走在泰安市区,城市面貌的变化却很有限。听身边的大人聊天,也感觉本地居民的收入并没有随着游客数量的增长而明显增加。这让我很好奇——泰山每年吸引这么多游客,为什么对本地经济的带动看起来并不大?这个问题是我做这项研究最初的动机。
+我在泰山脚下长大。这些年我注意到:尤其是周末和小长假,泰山山门口经常排长队、缆车站十分拥挤。我从身边长辈的闲聊中得到的印象是,本地居民收入似乎没有随游客数量同步增长——但这只是转述印象,并非我核实过的数据。这让我很好奇——泰山每年吸引这么多游客,这种旅游规模的增长,是否真的与本地经济指标同步变化?这个问题(以及由此产生的一个尚未验证的猜测:游客数量增长与本地经济价值增长可能并不同步)是我做这项研究最初的动机。详细的观察记录与猜测标注见 [logs/research_log.md](logs/research_log.md)。
 
-I grew up at the foot of Mount Tai. Over the years I've noticed something increasingly obvious: especially on weekends and short holidays, Mount Tai gets packed with visitors — long queues at the gate, crowded cable car stations — yet walking through downtown Tai'an, the changes to the city itself have felt limited. From conversations among adults around me, it also seemed like local residents' incomes hadn't grown much despite the rising visitor numbers. This made me curious: if Mount Tai attracts so many tourists every year, why doesn't the local economy seem to benefit as much as one might expect? This question is the starting point of this research.
+I grew up at the foot of Mount Tai. Over the years I've noticed that, especially on weekends and short holidays, the gate to Mount Tai is often crowded with long queues, and the cable car stations get very busy. From conversations among adults around me, I've gotten the impression that local residents' incomes haven't grown in step with rising visitor numbers — but this is only a secondhand impression, not data I have verified myself. This made me curious: if Mount Tai attracts so many tourists every year, does this growth in tourism scale actually move in sync with local economic indicators? This question — along with the unverified hypothesis it raises, that growth in tourist volume may not be synchronized with growth in local economic value — is the starting point of this research. Detailed observations and hypothesis notes are logged in [logs/research_log.md](logs/research_log.md).
 
 ## 研究范围说明 / Scope and Adjustments
 
@@ -29,6 +29,7 @@ The initial research plan used "Tai'an's citywide tourist volume" as the core va
 
 ```
 ├── README.md
+├── logs/           # 研究日志:观察、猜测与决策过程 / Research log: observations, hypotheses, decisions
 ├── data/           # 原始数据与清理后的分析数据 / Raw and cleaned datasets
 ├── docs/           # 研究方案说明、数据来源记录 / Research plan and data source documentation
 ├── analysis/       # 分析过程、图表、计算结果 / Analysis workbooks, charts, and results
@@ -54,4 +55,4 @@ The initial research plan used "Tai'an's citywide tourist volume" as the core va
 This is a personal research project. All data are drawn from publicly available government statistics.
 
 ---
-最后更新 / Last updated: 2026-08-20
+最后更新 / Last updated: 2026-08-23

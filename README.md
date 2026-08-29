@@ -21,9 +21,30 @@ The initial research plan used "Tai'an's citywide tourist volume" as the core va
 
 ## AI工具使用说明 / AI Tool Assistance
 
-本项目在数据整理过程中使用了AI工具(包括Google NotebookLM等)辅助收集与初步整理数据,并使用Claude辅助核对官方来源、审查数据口径冲突、整理研究日志格式。所有数据结论均经过人工逐项核实官方原文(统计公报、统计年鉴)后确认,过程记录见 [logs/](logs/) 文件夹。最终研究报告的分析与写作以本人独立完成为主。
+本项目在不同阶段使用了 AI 工具,具体分工如下,以便读者判断每一项结论的责任归属:
 
-This project used AI tools (including Google NotebookLM) to assist with initial data collection and organization, and used Claude to help verify official sources, review data discrepancies, and organize the research log format. All data conclusions were manually cross-checked against original official sources (statistical bulletins and yearbooks) before being adopted; the process is documented in [logs/](logs/). The final research report's analysis and writing were independently completed.
+| 环节 | 谁做的 | 说明 |
+|---|---|---|
+| 研究问题的提出与调整 | 本人 | 包括最初的观察、猜测,以及2026-08-28对研究问题的收窄 |
+| 数据来源检索、定位 | AI 工具(Google NotebookLM、Claude)辅助 + 本人 | AI 帮助搜索和定位可能的官方文件链接;是否采用、如何解读由本人判断 |
+| 原文逐项核对 | 本人亲自完成 | 所有标注"已核实"的数据,均由本人打开官方原文(统计公报、统计年鉴、评级报告等)逐项对照后确认,过程记录于 [logs/research_log.md](logs/research_log.md) |
+| 数据冲突的判断与取舍(如口径优先级、候选值排除) | 本人 | 判断依据记录于 [docs/data_priority_policy.md](docs/data_priority_policy.md) |
+| 研究日志的格式整理、文字润色 | AI 工具(Claude)辅助 | 日志的观察内容、猜测、判断均为本人原始记录;AI 协助统一格式、精简重复表述,不改变记录的事实内容 |
+| 最终报告的分析与写作 | 本人独立完成 | 待补充 |
+
+所有数据结论均经过本人逐项核实官方原文后确认,不存在未经本人核实、仅凭 AI 输出即采信的数据。过程记录见 [logs/research_log.md](logs/research_log.md)。
+
+This project used AI tools at different stages; the division of labor is listed above so readers can judge where responsibility for each conclusion sits. In short: framing the research question, verifying primary sources, and judging data conflicts were done by me personally; AI tools (Google NotebookLM, Claude) assisted with locating candidate sources and with formatting/copyediting the research log. No data point was adopted solely on the basis of an AI-generated claim without my own check against the original source. The process is documented in [logs/research_log.md](logs/research_log.md).
+
+## 数据截止说明 / Data Cutoff Note
+
+本研究的核心分析目前以 **2024 年** 为终点。2025 年数据存在两个限制:(1)《泰安统计年鉴2026》(通常于次年下半年发布,将收录2025年经普查/年报核实后的正式数据)尚未公布,当前v4表格中的2025年数值均来自统计公报或专题解读文章的**初步/快报数**,未来可能被年鉴修订;(2)"全市接待游客总人次""旅游总收入"两项2025年官方数据截至本文档更新时尚未发布。因此:
+
+- 正文的核心图表与结论以 2019-2024 年为准
+- 2025 年数据在图表中标注为 **provisional(初步数)**,不纳入核心结论的支撑证据,仅作参考展示
+- 待《泰安统计年鉴2026》发布后,将重新核实2025年数据并更新本仓库,更新记录将写入 [logs/research_log.md](logs/research_log.md),不做静默覆盖
+
+This study's core analysis currently ends at **2024**. 2025 data is limited because: (1) the *Tai'an Statistical Yearbook 2026* (which will contain the officially verified 2025 figures) has not yet been published — current 2025 values in the v4 dataset are preliminary/flash figures from bulletins or thematic articles, and may be revised; (2) citywide visitor arrivals and tourism revenue for 2025 had not been officially released as of this update. Accordingly, core charts and conclusions are based on 2019–2024; 2025 figures are marked **provisional** and shown for reference only. This will be revisited once the 2026 yearbook is published, with the update logged (not silently overwritten) in [logs/research_log.md](logs/research_log.md).
 
 ## 研究方法概述 / Methodology Overview
 
@@ -49,10 +70,11 @@ This project used AI tools (including Google NotebookLM) to assist with initial 
 ## 当前研究进度 / Current Progress
 
 - [x] 确定研究主题与仓库搭建 / Defined research topic and set up repository
-- [x] 数据收集与来源核实(进行中,核心变量仍有缺口) / Data collection and source verification (ongoing, core variable still has gaps)
-- [ ] 数据清理 / Data cleaning
-- [ ] 相关性与回归分析 / Correlation and regression analysis
+- [x] 数据收集与来源核实(核心变量2016-2024已完整核实;2025年为初步数,详见"数据截止说明") / Data collection and source verification (2016–2024 fully verified; 2025 is provisional — see "Data Cutoff Note")
+- [x] 研究问题调整(2026-08-28,详见 [logs/reflection_2026-08-28_research_question_pivot.md](logs/reflection_2026-08-28_research_question_pivot.md)) / Research question revised
+- [ ] 描述性分析(指数化对比、比值分析;不做回归,理由见方法论部分) / Descriptive analysis (indexed comparison, ratio analysis; regression intentionally omitted — see methodology)
 - [ ] 报告撰写 / Report writing
+- [ ] 2025年数据更新(待《泰安统计年鉴2026》发布) / 2025 data update (pending *Tai'an Statistical Yearbook 2026*)
 
 ## 关于本仓库 / About This Repository
 

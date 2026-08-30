@@ -48,9 +48,25 @@ This study's core analysis currently ends at **2024**. 2025 data is limited beca
 
 ## 研究方法概述 / Methodology Overview
 
-*(待补充 / To be expanded)* 本节将在完成理论框架部分后补充,预计包含:相关性分析(PMCC、Spearman等级相关)、显著性假设检验、最小二乘回归、移动平均趋势分解等,所用方法均在A-level考纲范围内。
+本研究的分析方法依据现行 CIE Economics 9708 考纲设计。原计划涉及的相关分析与回归方法(如PMCC、Spearman等级相关、最小二乘回归),经确认已不属于现行 Further Mathematics 9231 考纲范围(该内容曾出现在2011/2014版旧考纲中,现行版本(2026/2027年考试适用,Version 3)的 Paper 4 Further Probability & Statistics 已调整为:连续型随机变量、正态/t分布推断、卡方检验、非参数检验、概率生成函数);同时,本研究使用的年度时间序列数据存在自相关、样本量有限(n=6–10),也不适合做显著性假设检验。因此,本研究采用描述性统计与结构化比较作为核心方法。
 
-*(To be expanded)* This section will be filled in after the theoretical framework is drafted. It is expected to cover: correlation analysis (PMCC, Spearman's rank correlation), significance hypothesis testing, least-squares regression, and moving-average trend decomposition — all within the A-level syllabus.
+采用的方法及考纲依据如下:
+
+| 方法 | 考纲依据 | 用途 |
+|---|---|---|
+| 名义值/实际值换算(CPI平减) | 9708 4.6.3 | 剔除价格因素后比较真实增长 |
+| 增长率、指数化(基期=100) | 9708 4.4.2–4.4.3 | 跨指标、跨年份的可比呈现 |
+| 人均化及其局限性讨论 | 9708 11.3.3 | 应对常住人口2019–2025年下降7.2%对人均指标的影响 |
+| 毛额与增加值的区分(market price vs value added) | 9708 4.1.3–4.1.4 | 解释"旅游总收入"与"GDP"两个官方口径为何不可直接比较 |
+| 平均消费倾向APC计算 | 9708 9.1.1 | 分析城乡居民消费/收入比例的变化 |
+| 占比与结构份额分析 | 9708 11.4.3 | 门票收入占GDP比重、泰山游客占全市游客比重等 |
+| 描述统计(均值、标准差、图表) | 9709 Probability & Statistics 1 | 数据呈现 |
+
+不采用显著性检验(t检验、卡方检验等)的具体原因:这些检验假设各观测值相互独立,而本研究使用的是年度时间序列(如GDP、游客量逐年数据),同一变量的相邻年份高度自相关,不满足独立性假设,强行检验会得出无意义的显著性结论;样本量n=6–10也导致统计功效不足。不采用移动平均趋势分解,因该方法不属于 9708/9709/9231 现行考纲内容。
+
+以描述性比较为核心方法,是基于对可用工具边界的判断,而非能力局限——详见[docs/methodology_notes.md](docs/methodology_notes.md)*(待补充)*。
+
+The analytical methods in this study are designed around the current CIE Economics 9708 syllabus. Correlation and regression methods originally planned (e.g. PMCC, Spearman's rank correlation, least-squares regression) were confirmed to fall outside the current Further Mathematics 9231 syllabus (these appeared in the 2011/2014 syllabus versions; the current version's Paper 4 Further Probability & Statistics instead covers continuous random variables, normal/t-distribution inference, chi-squared tests, non-parametric tests, and probability generating functions). In addition, the annual time-series data used here are autocorrelated and the sample size is small (n=6–10), making significance testing inappropriate. This study therefore relies on descriptive statistics and structured comparison as its core method — a deliberate methodological choice based on the boundaries of applicable tools, not a gap due to lack of capability.
 
 ## 仓库结构 / Repository Structure
 

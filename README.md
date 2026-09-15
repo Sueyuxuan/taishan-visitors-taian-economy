@@ -110,7 +110,7 @@ The data used here are annual time series (e.g. yearly GDP and visitor-volume fi
 
 - [x] 确定研究主题与仓库搭建 / Defined research topic and set up repository
 - [x] 数据收集与来源核实(核心变量2016-2024已完整核实;2025年为初步数,详见"数据截止说明") / Data collection and source verification (2016–2024 fully verified; 2025 is provisional — see "Data Cutoff Note")
-- [x] 研究问题调整(2026-08-28,详见 [logs/reflection_2026-08-28_research_question_pivot.md](logs/reflection_2026-08-28_research_question_pivot.md)) / Research question revised
+- [x] 研究问题调整(2026-08-28提出收窄方向,2026-09-15正式定稿最终版本,详见 [logs/reflection_2026-08-28_research_question_pivot.md](logs/reflection_2026-08-28_research_question_pivot.md)) / Research question revised (narrowed 2026-08-28, finalized 2026-09-15)
 - [ ] 描述性分析(指数化对比、比值分析;不做回归,理由见方法论部分) / Descriptive analysis (indexed comparison, ratio analysis; regression intentionally omitted — see methodology)
 - [ ] 报告撰写 / Report writing
 - [ ] 2025年数据更新(待《泰安统计年鉴2026》发布,预计2026年11月左右) / 2025 data update (pending *Tai'an Statistical Yearbook 2026*, expected around November 2026)

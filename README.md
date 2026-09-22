@@ -15,9 +15,9 @@ I grew up at the foot of Mount Tai. Over the years I've noticed that, especially
 
 ## 研究范围说明 / Scope and Adjustments
 
-最初的研究计划以"泰安市全市旅游规模"作为核心变量,但在数据收集过程中发现,全市口径的游客数据在部分年份(如2017、2025)存在缺失或统计口径不一致(境内外游客 vs 国内游客)。相比之下,泰山景区"进山人数"这一指标的时间序列更为完整。因此,本研究将核心解释变量调整为泰山景区进山人数,并计划通过稳健性检验(即用全市口径数据重复分析),验证这一替代变量的合理性。
+本研究的核心解释变量选用泰山景区进山游客(窄口径),而非全市口径旅游数据,原因有二。其一,研究问题源于对泰山景区本身(山门、缆车站)拥挤程度的直接观察,窄口径客流是与这一观察对应的指标;全市口径数据会混入与泰山无关的区域旅游活动,与研究动机的匹配度反而更低。其二,该指标虽因来源分散(历年统计公报、专项债可行性报告、评级报告等)在原始数据表中一度部分年份标记为"待核实",但经 [docs/data_priority_policy.md](docs/data_priority_policy.md) 案例三、八、九、十、十一、十二记录的多轮独立信源交叉核实,2016-2025年整条序列的口径一致性与数值可信度已得到充分验证。数据表中的"存疑"颜色标记曾滞后于实际核实进度,已于2026-09-17同步更正;该过程(包括此前一度考虑改用全市口径数据、后经核实发现依据不成立的经过)记录于 [logs/reflection_2026-09-17_narrow_gauge_verification_correction.md](logs/reflection_2026-09-17_narrow_gauge_verification_correction.md)。
 
-The initial research plan used "Tai'an's citywide tourist volume" as the core variable. However, during data collection it became clear that citywide figures were missing or used inconsistent definitions in several years (e.g. 2017, 2025 — domestic-only vs. domestic-plus-inbound visitors). In contrast, the "Mount Tai scenic area entry visitor count" has a more complete time series. The research therefore shifted its core explanatory variable to Mount Tai's entry visitor count, with a robustness check (repeating the analysis using citywide data) planned to validate this substitution.
+The core explanatory variable in this study is Mount Tai scenic area's narrow-definition entry visitor count, rather than citywide tourism figures, for two reasons. First, the research question originates from a direct observation of crowding at Mount Tai itself (the gate, the cable car stations); the narrow-gauge visitor count corresponds directly to that observation, whereas citywide figures would mix in tourism activity unrelated to Mount Tai, making them a weaker match for the research motivation. Second, although this indicator was flagged as "unverified" for several years in the raw data table — owing to its scattered sourcing across annual bulletins, bond-issuance feasibility reports, and credit-rating reports — multiple rounds of independent cross-verification documented in [docs/data_priority_policy.md](docs/data_priority_policy.md) (Cases 3, 8, 9, 10, 11, and 12) have since confirmed the definitional consistency and reliability of this series across 2016–2025. The "unverified" color-coding in the data table had lagged behind this completed verification work and was corrected on 2026-09-17; the process — including an earlier, since-abandoned consideration of switching to citywide data — is documented in [logs/reflection_2026-09-17_narrow_gauge_verification_correction.md](logs/reflection_2026-09-17_narrow_gauge_verification_correction.md).
 
 ## AI工具使用说明 / AI Tool Assistance
 
@@ -126,4 +126,4 @@ The data used here are annual time series (e.g. yearly GDP and visitor-volume fi
 This is a personal research project. All data are drawn from publicly available government statistics.
 
 ---
-最后更新 / Last updated: 2026-09-15
+最后更新 / Last updated: 2026-09-17

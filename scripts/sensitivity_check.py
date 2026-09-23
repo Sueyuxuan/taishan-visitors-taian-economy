@@ -36,7 +36,7 @@ def make_index(series, base_year):
 BASE_YEARS_TO_TRY = [2019, 2021, 2022]
 print("函数定义完成，准备试算三个基期：", BASE_YEARS_TO_TRY)
 
-# ---------- 第三步：画图——三条不同基期的指数曲线放一起比 ----------
+# ---------- 第三步：画图——三条不同基期的指数曲线放一起比，并保存 ----------
 fig, ax = plt.subplots(figsize=(8, 5))
 colors = ['#1D9E75', '#378ADD', '#BA7517']
 
@@ -52,14 +52,15 @@ ax.set_title('换不同基期年份，"进山游客"这条线的形状会不会�
 ax.legend()
 ax.grid(alpha=0.3)
 plt.tight_layout()
-plt.show()  # 运行到这里会弹出图片窗口，看完关掉窗口，代码才会继续往下走
 
-# ---------- 第四步：保存图片 ----------
+# bbox_inches='tight' 会自动裁掉多余空白
 output_path = '../analysis/figures/02_sensitivity_base_year.png'  # ← 需要改
-plt.savefig(output_path, dpi=150)
+fig.savefig(output_path, dpi=150, bbox_inches='tight')
 print(f"图已保存到：{output_path}")
 
-# ---------- 第五步：把"低基数效应"量化出来 ----------
+plt.show()  # 运行到这里会弹出图片窗口，看完关掉窗口，代码才会继续往下走
+
+# ---------- 第四步：把"低基数效应"量化出来 ----------
 # 2023年相对2022年（低基数）涨了多少？相对2019年（疫情前）又涨了多少？
 # 这两个数字差很多，就是"低基数效应"最直接的数字证据。
 print("2023年游客数相对不同基期的涨幅：")

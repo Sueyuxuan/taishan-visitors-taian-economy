@@ -51,7 +51,7 @@ tertiary_growth = tertiary.pct_change() * 100
 print("进山游客同比增长率(%)：", visitors_growth.round(1).to_dict())
 print("第三产业同比增长率(%)：", tertiary_growth.round(1).to_dict())
 
-# ---------- 第五步：画核心对比图（两个面板：上面指数，下面增长率）----------
+# ---------- 第五步：画核心对比图（两个面板：上面指数，下面增长率）并保存 ----------
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 8), sharex=True)
 
 # 面板1：2019=100 指数对比
@@ -83,9 +83,12 @@ ax1.annotate('2023年:免票政策+\n疫情后恢复,注意低基数',
 ax1.set_ylim(top=max(visitors_index.max(), tertiary_index.max()) * 1.15)
 
 plt.tight_layout()
-plt.show()  # 运行到这里会弹出图片窗口，看完关掉窗口，代码才会继续往下走
 
-# ---------- 第六步：保存图片 ----------
+# 保存的是本格开头创建的 fig，即包含 ax1 和 ax2 的完整图
+# bbox_inches='tight' 会自动裁掉多余空白，避免标注文字被裁掉一部分
 output_path = '../analysis/figures/01_core_comparison_python.png'  # ← 需要改：换成你要保存的路径
-plt.savefig(output_path, dpi=150)
+fig.savefig(output_path, dpi=150, bbox_inches='tight')
 print(f"图已保存到：{output_path}")
+
+# 保存完成后再显示（运行到这里会弹出图片窗口，关掉窗口代码才会继续往下走）
+plt.show()

@@ -33,7 +33,7 @@ CORE_YEARS = [2019, 2020, 2021, 2022, 2023, 2024]
 visitors = visitors.reindex(CORE_YEARS)
 tertiary = tertiary.reindex(CORE_YEARS)
 
-print("进山游客(万人)：", visitors.to_dict())
+print("进山游客(万人次)：", visitors.to_dict())
 print("第三产业增加值(亿元)：", tertiary.to_dict())
 
 # ---------- 第三步：算 2019=100 指数 ----------

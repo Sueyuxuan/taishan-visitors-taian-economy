@@ -24,7 +24,7 @@ tertiary = pd.to_numeric(
     df[df['指标名称'] == name_tertiary].set_index('年份')['数值'], errors='coerce'
 ).reindex(CORE_YEARS)
 
-print("进山游客(万人)：", visitors.to_dict())
+print("进山游客(万人次)：", visitors.to_dict())
 
 # ---------- 第二步：定义"换基期算指数"的函数 ----------
 # 公式和 Day 6/7 用的是同一个：该年数值 / 基期年数值 * 100，只是基期年可以换。

@@ -39,3 +39,7 @@ python sensitivity_check.py
 4. 在 `docs/methodology_notes.md` 里补一段说明这两个脚本是用来做什么的、用了什么方法、
    AI 起草代码后本人做了哪些修改和核对（比如 CSV 数字被读成文字这个bug，是怎么发现并修好的，
    这本身就是一个值得写进方法笔记的"调试过程"）。
+
+## 英文标签的图
+
+`make_english_figures.py` 生成英文版报告用的两张图（`01_core_comparison_en.png`、`02_sensitivity_base_year_en.png`）。计算方法和前面两个脚本完全一样，只有标题、坐标轴、图例、标注换成英文；运行方式相同（在 `scripts/` 文件夹里运行，图保存到 `../analysis/figures/`）。中文版的图和原来的脚本不受影响。

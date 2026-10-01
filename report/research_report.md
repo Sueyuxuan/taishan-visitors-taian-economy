@@ -1,45 +1,57 @@
-# 泰山游客数量与泰安市服务业经济是否同步变化？
-## ——基于2019—2024年数据的观察
+# Do Mount Tai Visitor Numbers and Tai'an's Service Economy Move Together?
+## — Observations from 2019–2024 Data
 
-## 摘要
+*This is the English version, translated from the Chinese original ([research_report_zh.md](research_report_zh.md)). If the two differ, the Chinese version is the reference, because it is the author's own wording. Both versions use the same data; the figures in this version have English labels.*
 
-在泰山脚下生活时，我经常看到假期里景区人流密集的场景。这让我想知道：游客变多的时候，泰安市的服务业经济是否也会出现相似的增长？本文比较了2019—2024年泰山景区进山游客数与泰安市第三产业增加值，并以2019年为基期，观察两个指标的变化。结果显示，游客数量在这六年间起伏较大，第三产业增加值则保持相对平稳的上升，两者的变化并不完全同步。其中，2023年游客数比2022年增长约301.3%，但比2019年增长约51.8%，说明增长率需要结合比较起点来看。由于本文比较的是单个景区的客流和全市服务业的增加值，而且只有六年的年度数据，这些结果只能描述趋势，不能据此判断泰山旅游对当地经济的具体贡献。
+## Abstract
 
-## 一、为什么研究这个问题
+Living at the foot of Mount Tai, I often see how crowded the scenic area gets during holidays. This made me wonder: when visitor numbers rise, does Tai'an's service-sector economy show a similar increase? This report compares Mount Tai's annual entry-visitor numbers with Tai'an's tertiary-sector value-added from 2019 to 2024, indexing both to 2019 as a base year. The results show that visitor numbers fluctuated considerably over these six years, while tertiary-sector value-added rose relatively steadily — the two do not move in full sync. In particular, 2023 visitor numbers rose about 301.3% compared with 2022, but only about 51.8% compared with 2019, which shows that growth rates must be read together with the year they are compared against. Because this report compares a single scenic area's visitor flow with city-wide service-sector output, and relies on only six years of annual data, these results can only describe a trend — they cannot be used to judge Mount Tai tourism's specific contribution to the local economy.
 
-我在泰山脚下生活多年，对周末和小长假山门、缆车站前拥挤的场景并不陌生。不过，在听身边长辈聊起收入时，我又有一个疑问：景区这么热闹，本地居民的收入是否也在同步增长？
+## 1. Why I chose this question
 
-这个疑问来自日常观察，还不能当作事实。要直接回答它，需要知道哪些居民从事旅游相关工作、他们的收入如何变化，以及游客的钱花在了哪里。现有资料还不足以支持这样的分析。因此，我把问题缩小为一个能够用已有数据讨论的问题：**2019—2024年，泰山景区进山游客数与泰安市第三产业增加值的变化趋势是否同步？**
+I have lived at the foot of Mount Tai for many years, and I am familiar with the long queues at the main gate and the cable car stations on weekends and short holidays. But when I listened to older relatives talking about income, another question came to mind: with the scenic area so busy, are local residents' incomes also rising at the same pace?
 
-我选择进山游客数，是因为它更接近我最初关注的泰山景区客流。全市游客数还包括其他景点和旅游活动，不能直接代表泰山的情况。第三产业增加值则用于观察全市服务业的整体变化，但它也包括金融等与景区客流没有直接对应关系的行业。因此，比较这两个指标可以帮助我了解它们的走势，却不能直接回答居民是否因旅游而增收。
+This question comes from everyday observation, so it cannot be treated as a fact. To answer it directly, I would need to know which residents work in tourism-related jobs, how their income has changed, and where visitors' money is actually spent. The data I have cannot support that kind of analysis. So I narrowed the question to one that existing data can address: **from 2019 to 2024, is the trend in the number of visitors entering the Mount Tai scenic area in sync with the trend in the value-added of Tai'an's tertiary sector?**
 
-## 二、数据与比较方法
+I chose the number of entry visitors because it is closest to the Mount Tai visitor flow that I originally cared about. The city-wide visitor count also includes other attractions and tourism activities, so it cannot stand in for Mount Tai. Tertiary-sector value-added lets me look at the service economy of the whole city, but it also includes sectors such as finance that have no direct link to visitor flow at the scenic area. So comparing these two indicators helps me see how they trend, but it cannot directly answer whether residents earn more because of tourism.
 
-### 2.1 使用了哪些数据
+## 2. Data and methods
 
-本文使用2019—2024年的两组核心数据：泰山景区进山游客人数，以及泰安市第三产业增加值。游客数据来自历年统计公报、专项债可行性报告和评级报告等资料；第三产业增加值来自泰安统计年鉴。各年份的来源及口径记录在配套数据字典中。
+### 2.1 What data I used
 
-游客人数以“人次”统计，同一个人多次进山可能被多次计入。第三产业增加值采用现价数据，因此其变化既可能包含经济活动规模的变化，也可能受到价格变化的影响，不能直接理解为剔除价格因素后的实际增长。
+This report uses two core data series for 2019–2024: the number of visitors entering the Mount Tai scenic area, and the value-added of Tai'an's tertiary sector. The visitor data come from annual statistical bulletins, a special-purpose bond feasibility report, credit-rating reports and similar sources; the tertiary-sector value-added comes from the Tai'an Statistical Yearbook. The source and definition for each year are recorded in the accompanying data dictionary (in Chinese).
 
-### 2.2 怎样比较两个不同的指标
+I only use data from 2019 to 2024. In the 2016–2018 bulletins the wording is "visitors received" (接待游客), which differs from the wording "visitors entering the mountain and scenic sites" (进山进景点游客) used from 2019 on. The 2018 figure roughly matches the "entering the mountain and scenic sites" figure (5.62 million visits) in a special-purpose bond feasibility report, but the 2024 bulletin also gives two figures with different scopes (9.4109 million "visitors received" and 8.0629 million "visitors entering Mount Tai"). To be careful, I therefore use only data from 2019 onward, where the definition is relatively consistent. The 2025 figures are still preliminary and the statistical yearbook has not been published yet, so I do not use them for now.
 
-游客数和增加值的单位不同，直接比较数值大小没有意义。我将两个指标2019年的数值都设为100，再计算后续年份的指数：
+By "entry visitors" I mean the figure called "visitors entering the mountain and scenic sites" in statistical bulletins and similar sources. The exact wording differs slightly from year to year (for example "visitors entering Mount Tai" or "entry visitors"). I use this narrower figure and do not use the broader "visitors received" figure.
 
-> 某年指数＝该年数值÷2019年数值×100
+My visitor data come from several kinds of sources, and for the same year I sometimes found different numbers. My approach was this: where the statistical yearbook has the data, I use the formal numbered tables of the yearbook first; where the yearbook does not have it — as with entry visitors — I use the statistical bulletins and cross-check them against the special-purpose bond feasibility report, the credit-rating reports and materials from the scenic area management committee; numbers that do not match and whose original text I could not verify are not used. For example, for 2023 I came across a figure of 10.0942 million visits, but a rating report says that the 2024 figure (8.0629 million visits) was "a slight decrease from the previous year". If 2023 had really been 10.0942 million, 2024 would be about 20% lower, which is not a slight decrease, so I did not use that figure and used 8.6197 million instead.
 
-例如，指数为120，表示该指标比2019年高出20%。这样可以比较两个指标相对各自起点的变化，但不会消除它们在统计范围上的差异。
+Visitor numbers are counted in "visits" (人次), so the same person entering the mountain several times may be counted several times. Tertiary-sector value-added is at current prices, so its changes may reflect both changes in the scale of economic activity and changes in prices; they should not be read directly as real growth with price effects removed.
 
-除此之外，我还比较了逐年的同比增长率，并分别以2019年、2021年和2022年为起点计算游客指数，观察更换比较起点后，数字的表达会有多大变化。
+### 2.2 How I compare two different indicators
 
-本文只有六个年度的观测值，其中还包括疫情期间的特殊变化。用这些数据做回归，很难得到稳定、可靠的解释，所以我主要采用图表和增长率进行描述，没有进行显著性检验或因果分析。
+The two indicators have different units, so comparing their sizes directly makes no sense. I set both indicators to 100 in 2019 and calculated an index for each later year:
 
-## 三、数据中有哪些值得注意的现象
+> Index for a year = value in that year ÷ value in 2019 × 100
 
-### 3.1 游客数量起伏较大，服务业增加值增长相对平稳
+For example, an index of 120 means the indicator is 20% higher than in 2019. This lets me compare how each indicator has changed relative to its own starting point, but it does not remove the difference in what the two indicators cover.
 
-以2019年为100，泰山景区游客指数及同比变化如下：
+I also compared year-on-year growth rates, and calculated the visitor index with 2019, 2021 and 2022 as the base year, to see how much the numbers change when the comparison year changes.
 
-| 年份 | 游客指数（2019年＝100） | 同比增长率 |
+This report has only six annual observations, and they include the unusual changes during the pandemic. Running a regression on such data would hardly give a stable or reliable explanation, so I mainly describe the data with charts and growth rates, and I do not run significance tests or causal analysis.
+
+The calculations and charts were done in Python (pandas, matplotlib); the scripts are in the repository's `scripts` folder.
+
+## 3. What the data show
+
+### 3.1 Visitor numbers fluctuate widely, while service-sector value-added grows more steadily
+
+Taking 2019 as 100, the index and year-on-year change of entry visitors at Mount Tai are shown in Table 1, and a comparison of the two indicators is shown in Figure 1.
+
+**Table 1　Index and year-on-year growth rate of Mount Tai entry visitors (2019 = 100)**
+
+| Year | Visitor index (2019 = 100) | Year-on-year growth |
 | --- | ---: | ---: |
 | 2019 | 100.0 | — |
 | 2020 | 49.1 | −50.9% |
@@ -48,69 +60,79 @@
 | 2023 | 151.8 | 301.3% |
 | 2024 | 142.0 | −6.5% |
 
-注：指数与增长率沿用原有分析结果，均为四舍五入后的数值；用表中的指数重新计算增长率，可能出现小幅差异。
+Note: The index and growth figures are carried over from the earlier analysis and are rounded; recalculating the growth rates from the rounded indices in the table may give small differences.
 
-2020年游客数量降至2019年的一半左右，2021年有所恢复，但2022年又降到了这六年的最低点。2023年游客数量明显回升，超过2019年水平；2024年虽有回落，仍比2019年高出约42.0%。
+![Figure 1　Index of Mount Tai entry visitors and Tai'an tertiary-sector value-added, and year-on-year growth rates (2019 = 100)](../analysis/figures/01_core_comparison_en.png)
 
-第三产业增加值的变化要平缓得多。它的指数从2019年的100上升到2024年的124.8，期间每年都在增长，年度增幅约为2.5%至7.0%。
+**Figure 1　Index of Mount Tai entry visitors and Tai'an tertiary-sector value-added, and year-on-year growth rates (2019 = 100)**
 
-两者的差别不仅在于变化幅度，部分年份的变化方向也不同。2020年和2022年，游客数下降，第三产业增加值却继续上升；2024年也出现了类似情况。2021年和2023年两个指标都在增长，但游客数量的增幅更大。因此，在这六年的年度数据中，两者没有表现出持续同步的变化。
+In 2020 the number of visitors dropped to about half of the 2019 level. It recovered somewhat in 2021, but in 2022 it fell again to the lowest point of the six years. In 2023 it rose clearly and exceeded the 2019 level; in 2024 it fell back, but was still about 42.0% higher than in 2019.
 
-这并不意味着游客数量与当地经济没有关系。第三产业覆盖多个行业，即使住宿、餐饮等行业受到客流变化影响，这些变化也未必会以同样的幅度体现在全市数据中。现有资料无法区分各行业的变化，也无法判断客流的影响是否会延后出现。
+The value-added of the tertiary sector changed much more gently. Its index rose from 100 in 2019 to 124.8 in 2024, growing in every year; compared with the previous year, the annual increases were about 2.5% to 7.0%.
 
-### 3.2 “增长301.3%”需要说明是和哪一年相比
+The two indicators differ not only in the size of their changes but, in some years, also in direction. In 2020 and 2022 visitor numbers fell while tertiary-sector value-added kept rising; the same happened in 2024. In 2021 and 2023 both indicators grew, but visitor numbers grew by more. So in these six years of annual data, the two do not show a sustained, synchronized movement.
 
-2023年泰山景区进山游客数为861.97万人次，2022年为214.8万人次，两年相比增长约301.3%。这个数字很突出，但2022年恰好是观察期内的最低点。
+This does not mean that visitor numbers and the local economy are unrelated. The tertiary sector covers many industries, and even if hotels, restaurants and similar industries are affected by visitor flow, the effect may not show up with the same size in city-wide figures. The available data cannot separate the changes in individual industries, nor tell whether the effect of visitor flow shows up with a delay.
 
-如果改用2019年的567.9万人次作比较，2023年的增幅约为51.8%。两个结果都可以成立，只是回答的问题不同：301.3%描述的是从2022年低点回升了多少，51.8%描述的是比疫情前高出了多少。
+### 3.2 "Up 301.3%" needs to say which year it is compared with
 
-这也是我认为分析中需要交代清楚的一点。单独写“游客增长超过三倍”，读者很容易忽略比较起点。更准确的表达应是：**2023年游客数比2022年增长约301.3%，比2019年增长约51.8%。**
+In 2023 the number of visitors entering Mount Tai was 8.6197 million visits, against 2.148 million in 2022, an increase of about 301.3%. This figure stands out, but 2022 happens to be the lowest point in the period.
 
-分别以2019年、2021年和2022年为基期时，游客曲线的升降顺序没有改变，但2023年的指数值会落在151.8至401.3之间。更换基期只是调整了展示的尺度，没有提供新的观测数据，因此不能把三条曲线当作三次独立验证。
+If I compare with 2019 (5.679 million visits) instead, the 2023 increase is about 51.8%. Both results are valid; they just answer different questions: 301.3% describes how much visitor numbers rebounded from the low in 2022, and 51.8% describes how far they were above the pre-pandemic level.
 
-### 3.3 怎样理解疫情期间和之后的变化
+This is a point that I think the analysis must make clear. If I simply wrote "visitors more than tripled", readers could easily overlook the starting point. A more accurate statement is: **in 2023 visitor numbers were about 301.3% higher than in 2022 and about 51.8% higher than in 2019.**
 
-2020—2022年的游客数量都低于2019年，2023年则明显回升。从时间上看，这与疫情期间出行受到影响、此后逐渐恢复的背景相吻合。
+When the base year is set to 2019, 2021 and 2022 in turn, the ups and downs of the visitor curve do not change in order, but the 2023 index ranges from 151.8 to 401.3 (see Figure 2). Changing the base year only changes the scale of the display; it provides no new observations, so the three curves cannot be treated as three independent checks.
 
-不过，年度数据把一整年的情况合并成了一个数字。它不能告诉我们客流在哪几个月开始回升，也不能区分出行恢复、景区政策等因素分别起了多大作用。2023年的高增长率还受到2022年低基数的影响。因此，本文只把这些因素作为理解数据的背景，不对某项政策的效果作判断。
+![Figure 2　Index of Mount Tai entry visitors with 2019, 2021 and 2022 as the base year](../analysis/figures/02_sensitivity_base_year_en.png)
 
-## 四、关于居民收入的补充观察
+**Figure 2　Index of Mount Tai entry visitors with 2019, 2021 and 2022 as the base year**
 
-虽然核心分析没有直接回答居民收入的问题，我仍保留了整理资料时发现的一组数据，因为它与最初的疑问有关。
+### 3.3 How to understand the changes during and after the pandemic
 
-2019—2024年，泰安市城镇与农村居民人均可支配收入之比从2.02降到1.82；与此同时，两者的绝对差额从19074元增加到21625元，扩大约13.4%。也就是说，收入的相对差距在缩小，但按金额计算的差距仍在扩大。
+From 2020 to 2022 the number of visitors was below the 2019 level, and in 2023 it rose clearly. In terms of timing, this fits the background of travel being disrupted during the pandemic and gradually recovering afterwards. In addition, according to the departmental budget of the Mount Tai scenic area management committee, the scenic area ran a free-admission policy from 21 January to 31 March 2023.
 
-这两种变化并不矛盾。农村居民收入的起点较低，即使百分比增速更快，每年增加的金额也可能少于城镇居民。所以，“城乡收入差距是否缩小”需要说明采用哪种衡量方式。仅凭收入比下降，还不能概括收入差距的全部变化，更不能把这种变化归因于旅游业。
+However, annual data merge a whole year into a single number. They cannot tell us in which months visitor numbers began to rise, nor separate how much was due to the recovery of travel and how much to scenic-area policies. The high growth rate in 2023 was also affected by the low base in 2022. So this report treats these factors only as background for understanding the data, and does not judge the effect of any policy.
 
-此外，原有资料中的全市每人次国内旅游收入在2019—2024年大致处于900至1100元之间，没有明显的持续上升或下降趋势。这个平均数不能代表泰山游客的实际花费，也不能说明这些收入最终有多少进入了本地居民家庭。考虑到部分年份的统计口径尚未确认，本文不据此作进一步判断。
+## 4. A supplementary observation on residents' income
 
-## 五、这份研究还存在哪些不足
+Although the core analysis does not directly answer the question about residents' income, I kept one set of figures that I found while organizing the data, because it is related to my original question.
 
-首先，单个景区的客流与全市服务业增加值并不是完全对应的指标。指数化使它们更容易放在一起观察，却不能解决统计范围不同的问题。如果能取得住宿、餐饮等行业的细分数据，比较会更贴近研究问题。
+From 2019 to 2024, the ratio of urban to rural residents' per-capita disposable income in Tai'an fell from 2.02 to 1.82; over the same period, the absolute gap between the two rose from 19,074 yuan to 21,625 yuan, an increase of about 13.4%. In other words, the relative gap narrowed, but the gap in money terms kept widening.
 
-其次，六年的数据不足以展示长期关系，疫情期间的特殊波动又占了其中很大一部分。因此，这段时间观察到的走势，未必能代表其他年份的情况。
+These two changes do not contradict each other. Rural residents started from a lower income, so even with faster percentage growth, the amount added each year can be smaller than for urban residents. So the question "has the urban–rural income gap narrowed?" needs to say which measure is being used. A falling ratio alone cannot describe all the changes in the income gap, and it certainly cannot be attributed to tourism.
 
-数据本身也有需要继续核对的地方。游客数据分散在不同类型的文件中，后续引用时仍需保留具体来源和页码。全市国内旅游收入在2022—2024年的口径明确排除了入境人数和花费，但2019—2021年是否采用相同口径尚未查明。此外，2023年泰山景区门票总收入缺失，原有整理中通过两个来源反推的结果又不一致，因此没有采用任何一个估算值。
+In addition, the city-wide revenue per domestic visit in the existing data (domestic tourism revenue divided by the number of domestic tourist visits) stayed roughly between 900 and 1,100 yuan from 2019 to 2024, with no clear sustained rise or fall. This average cannot represent what visitors to Mount Tai actually spend, nor does it show how much of this revenue ends up in local households. Since the definitions for some years have not been confirmed, this report does not draw further conclusions from it.
 
-## 六、结论与下一步
+## 5. Limitations of this study
 
-回到最初的问题，2019—2024年泰山景区游客数量与泰安市第三产业增加值并没有持续同步变化。游客数量经历了较大的下降和回升，全市服务业增加值则相对平稳地增长。但这份比较还不能回答旅游为当地居民带来了多少收入。
+The biggest problem is that the visitor flow of a single scenic area and the value-added of the whole city's service sector are not fully corresponding indicators. Indexing makes them easier to look at together, but it does not solve the problem of their different coverage. With more detailed data for hotels, restaurants and similar industries, the comparison would be closer to the research question.
 
-对我来说，这次分析最有价值的地方，是发现“景区人多”“服务业增长”和“居民增收”虽然有关联，却需要不同的数据来回答。最初从生活中产生的疑问，不能只靠两条年度曲线就得出结论。
+The time range is also a problem. Six years of data are not enough to show a long-term relationship, and the unusual swings during the pandemic make up a large part of them. So the trend seen in this period may not represent other years.
 
-下一步，我希望先补充月度或季度客流数据，了解变化发生的具体时间，并结合政策执行记录作比较。如果能取得住宿、餐饮等行业的数据，或者收集到本地商户和从业者的收入资料，就可以进一步讨论游客增加与本地经营、就业之间的关系。在此之前，还需要补齐现有数据的来源页码，确认不同年份的统计口径。
+The data themselves also need further checking. The visitor data are scattered across different kinds of documents, and later citations will still need specific sources and page numbers. The city-wide domestic tourism revenue is explicitly defined as excluding inbound visitors and their spending in 2022–2024, but it is not yet known whether 2019–2021 use the same definition. In addition, total ticket revenue for the Mount Tai scenic area is missing for 2023, and the two estimates back-calculated from different sources in the earlier work do not agree, so I did not use either estimate.
 
-## 附录：配套资料索引
+## 6. Conclusion and next steps
 
-以下路径沿用原稿，供整理研究材料时查找；这些文件不包含在本次修订稿中。
+Going back to the original question: from 2019 to 2024, the number of visitors at Mount Tai and the value-added of Tai'an's tertiary sector did not keep changing in sync. Visitor numbers went through a large fall and rebound, while the city's service-sector value-added grew relatively steadily. But this comparison cannot yet answer how much income tourism brought to local residents.
 
-- 数据字典：`docs/data_dictionary.md`
-- 数据核实记录：`docs/data_priority_policy.md`
-- 方法笔记：`docs/methodology_notes.md`
-- 主要对比分析：`analysis/core_comparison_analysis.md`
-- 基期比较分析：`analysis/sensitivity_analysis.md`
-- 补充分析：`analysis/supplementary_analysis_notes.md`
-- 图表：`analysis/figures/01_core_comparison_python.png`、`analysis/figures/02_sensitivity_base_year.png`
-- 计算脚本：`scripts/plot_core_comparison.py`、`scripts/sensitivity_check.py`、`scripts/supplementary_analysis.py`，以及对应的`.ipynb`版本。
+For me, the most valuable thing about this analysis was finding that "a busy scenic area", "growth in the service sector" and "higher incomes for residents" are linked in some way, but each needs different data to answer. A question that began in everyday life cannot be settled by two annual curves alone.
 
+Next, I hope to add monthly or quarterly visitor data to see when the changes happened, and to compare them with records of policy implementation. If I can get data for hotels and restaurants, or collect income information from local shops and workers, I could go on to discuss the link between more visitors and local business and employment. Before that, I still need to fill in page numbers for the sources of the existing data and confirm the definitions used in different years. The specific directions and priorities are in `docs/future_directions.md` (in Chinese).
 
+## Appendix: Supporting materials
+
+The supporting documents below are written in Chinese; the README is bilingual.
+
+- Data dictionary: `docs/data_dictionary.md`
+- Data verification record: `docs/data_priority_policy.md`
+- Data conflict list: `data/data_conflict_audit.csv`
+- Methods notes: `docs/methodology_notes.md`
+- Main comparison notes: `analysis/core_comparison_analysis.md`
+- Base-year comparison notes: `analysis/sensitivity_analysis.md`
+- Supplementary analysis notes: `analysis/supplementary_analysis_notes.md`
+- Future research directions: `docs/future_directions.md`
+- Figures: `analysis/figures/01_core_comparison_en.png` and `analysis/figures/02_sensitivity_base_year_en.png` (English labels); the Chinese-labelled versions are `01_core_comparison_python.png` and `02_sensitivity_base_year.png`
+- Calculation scripts: `scripts/plot_core_comparison.py`, `scripts/sensitivity_check.py`, `scripts/supplementary_analysis.py` and their `.ipynb` versions; `scripts/make_english_figures.py` produces the English-labelled figures
+
+**Note on writing assistance:** The first draft of the Chinese report was written by AI. I rewrote the wording throughout and checked the numbers; the unit of the visitor numbers (10,000 visits) was corrected after I checked the original data with AI; the parts about my own experience were written entirely by me. The additional notes in section 2.1 on data scope and the choice of sources were drafted by AI from the data verification records. This English version was translated from the Chinese version by AI; if the two differ, the Chinese version is the reference. AI assistance is not a data source.

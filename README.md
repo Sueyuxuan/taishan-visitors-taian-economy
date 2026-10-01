@@ -30,7 +30,8 @@ The core explanatory variable in this study is Mount Tai scenic area's narrow-de
 | 原文逐项核对 | 本人亲自完成 | 所有标注"已核实"的数据,均由本人打开官方原文(统计公报、统计年鉴、评级报告等)逐项对照后确认,过程记录于 [logs/research_log.md](logs/research_log.md) |
 | 数据冲突的判断与取舍(如口径优先级、候选值排除) | 本人 | 判断依据记录于 [docs/data_priority_policy.md](docs/data_priority_policy.md) |
 | 研究日志的格式整理、文字润色 | AI 工具(Claude)辅助 | 日志的观察内容、猜测、判断均为本人原始记录;AI 协助统一格式、精简重复表述,不改变记录的事实内容 |
-| 最终报告的分析与写作 | 本人独立完成 | 待补充 |
+| 最终报告的分析与写作（中文版） | AI起草初稿 + 本人重写 | AI依据研究提纲起草中文初稿；本人重写全文表述、独立撰写个人经历部分，并在审阅过程中发现并更正了游客数量单位（万人→万人次）标注错误；完整分工说明见两份报告末尾的"写作辅助说明"（[中文版](reports/research_report_zh.md)、[英文版](reports/research_report.md)） |
+| 报告英文版 | AI翻译自中文版 | 英文版 [reports/research_report.md](reports/research_report.md) 由AI从中文版翻译，两者有出入时以中文版为准 |
 
 所有数据结论均经过本人逐项核实官方原文后确认,不存在未经本人核实、仅凭 AI 输出即采信的数据。过程记录见 [logs/research_log.md](logs/research_log.md)。
 
@@ -48,27 +49,59 @@ This study's core analysis currently ends at **2024**. 2025 data is limited beca
 
 ## 研究方法概述 / Methodology Overview
 
-本研究采用的分析方法,是我在 CIE Economics(9708)与 Mathematics 课程中学过的内容,包括:名义值与实际值换算(CPI平减)、增长率计算与指数化(基期=100)、人均化处理、毛额与增加值的区分(market price vs value added)、平均消费倾向(APC)计算、结构占比分析,以及描述统计(均值、标准差、图表呈现)。
+本研究用到的方法都比较基础，以我在 CIE Economics (9708) 与 Mathematics 课程中学过的内容为主。下面分两组列出：本报告实际用到的，以及学过或考虑过、但这份报告没有用的。
 
-本研究使用的是年度时间序列数据(如GDP、游客量逐年数值),同一变量相邻年份之间高度相关,不满足显著性假设检验(如t检验、卡方检验)所要求的"观测值相互独立"这一前提;样本量也有限(n=6–10),统计功效不足。因此本研究没有采用显著性检验或回归分析,而是以描述性统计与结构化比较作为核心分析方法。
-
-方法一览:
+**本报告实际使用的方法**
 
 | 方法 | 用途 |
 |---|---|
-| 名义值/实际值换算(CPI平减) | 剔除价格因素后比较真实增长 |
-| 增长率、指数化(基期=100) | 跨指标、跨年份的可比呈现 |
-| 人均化及其局限性讨论 | 应对常住人口2019–2025年下降7.2%对人均指标的影响 |
-| 毛额与增加值的区分(market price vs value added) | 解释"旅游总收入"与"GDP"两个官方口径为何不可直接比较 |
-| 平均消费倾向APC计算 | 分析城乡居民消费/收入比例的变化 |
-| 占比与结构份额分析 | 门票收入占GDP比重、泰山游客占全市游客比重等 |
-| 描述统计(均值、标准差、图表) | 数据呈现 |
+| 指数化（2019年=100） | 让单位不同的两个指标，可以比较各自相对2019年的变化 |
+| 同比增长率 | 观察逐年变化 |
+| 换基期比较（基期敏感性展示） | 展示增长率数字对比较起点有多敏感；这不是独立的稳健性检验 |
+| 比值与绝对差额 | 比较城乡居民收入的相对差距和金额差距 |
+| 每人次收入（收入÷人次） | 延伸讨论中的补充观察，全市口径 |
+| 图表与描述性比较 | 呈现趋势，不做因果推断 |
 
-以描述性比较为核心方法,是基于对可用工具边界的判断,而非能力局限——详见[docs/methodology_notes.md](docs/methodology_notes.md)*(待补充)*。
+**学过或考虑过，但本报告没有使用的方法**
 
-The analytical methods used in this study draw on content I learned in CIE Economics (9708) and Mathematics coursework, including: nominal/real value conversion (CPI deflation), growth rate calculation and indexing (base year = 100), per-capita adjustment, the distinction between gross output and value added (market price vs value added), average propensity to consume (APC) calculation, share/structure analysis, and descriptive statistics (mean, standard deviation, chart presentation).
+| 方法 | 说明 |
+|---|---|
+| 名义值/实际值换算（CPI平减） | 只看过CPI涨幅（2023、2024年接近0），没有用来换算报告里的数字；报告里只说明了第三产业增加值是现价 |
+| 人均化处理 | 没有使用 |
+| 平均消费倾向（APC） | 没有做 |
+| 占比与结构份额分析（如泰山游客占全市游客的比重） | 没有做 |
+| 均值、标准差 | 没有计算 |
+| 显著性检验、回归 | 刻意不做，原因见下 |
 
-The data used here are annual time series (e.g. yearly GDP and visitor-volume figures), where adjacent years for the same variable are highly correlated — this violates the independence assumption required by significance tests (e.g. t-tests, chi-squared tests); the sample size is also limited (n=6–10), giving insufficient statistical power. This study therefore does not use significance testing or regression analysis, relying instead on descriptive statistics and structured comparison as its core method.
+本研究使用的是年度时间序列数据(如GDP、游客量逐年数值),同一变量相邻年份之间高度相关,不满足显著性假设检验(如t检验、卡方检验)所要求的"观测值相互独立"这一前提;样本量也有限(n=6–10),统计功效不足。因此本研究没有采用显著性检验或回归分析,而是以描述性比较为核心方法。
+
+以描述性比较为核心方法,是基于对可用工具边界的判断,而非能力局限——详见[docs/methodology_notes.md](docs/methodology_notes.md)。
+
+The methods used in this study are fairly basic and mostly drawn from what I learned in CIE Economics (9708) and Mathematics. They are listed in two groups below: methods actually used in the report, and methods I have learned or considered but did not use here.
+
+**Methods actually used in the report**
+
+| Method | Purpose |
+|---|---|
+| Indexing (2019 = 100) | Compare two indicators with different units by their change relative to 2019 |
+| Year-on-year growth rate | Track year-by-year change |
+| Changing the base year (base-year sensitivity display) | Show how sensitive growth figures are to the comparison year; this is not an independent robustness check |
+| Ratio and absolute gap | Compare the relative and absolute urban–rural income gaps |
+| Revenue per visit (revenue ÷ visits) | Supplementary observation in the extended discussion; citywide scope |
+| Charts and descriptive comparison | Present trends without causal inference |
+
+**Methods learned or considered, but not used in this report**
+
+| Method | Note |
+|---|---|
+| Nominal/real conversion (CPI deflation) | CPI inflation was looked at (close to zero in 2023 and 2024) but not used to convert figures in the report; the report only notes that tertiary-sector value-added is at current prices |
+| Per-capita adjustment | Not used |
+| Average propensity to consume (APC) | Not done |
+| Share / structure analysis (e.g. Mount Tai visitors as a share of citywide visitors) | Not done |
+| Mean, standard deviation | Not computed |
+| Significance testing, regression | Deliberately not used; see below |
+
+The data used here are annual time series (e.g. yearly GDP and visitor-volume figures), where adjacent years for the same variable are highly correlated — this violates the independence assumption required by significance tests (e.g. t-tests, chi-squared tests); the sample size is also limited (n=6–10), giving insufficient statistical power. This study therefore does not use significance testing or regression analysis, relying instead on descriptive comparison as its core method.
 
 ## 仓库结构 / Repository Structure
 
@@ -79,15 +112,29 @@ The data used here are annual time series (e.g. yearly GDP and visitor-volume fi
 │   ├── archive_index.md
 │   └── ...(共4份存档文件,详见 archive_index.md)
 ├── data/
-│   └── raw/
-│       ├── taian_indicators.xlsx   # 当前使用版本(数据源) / current version in use
-│       └── archive/                # 历史版本存档,按版本号+日期保留,不覆盖 / archived historical versions, kept by version+date, never overwritten
-│           ├── taian_development_indicators_v1_20260823.xlsx
-│           ├── taian_development_indicators_v4_20260824.xlsx
-│           └── taian_development_indicators_v4_20260825.xlsx
-├── docs/                   # 数据来源记录与优先级判定规则 / Data source documentation and priority rules
+│   ├── raw/
+│   │   ├── taian_indicators.xlsx   # 当前使用版本(数据源) / current version in use
+│   │   └── archive/                # 历史版本存档,按版本号+日期保留,不覆盖 / archived historical versions, kept by version+date, never overwritten
+│   ├── cleaned/            # 清洗后的分析用数据 / Cleaned data for analysis
+│   │   ├── analysis_data.xlsx
+│   │   └── analysis_data.csv
+│   └── data_conflict_audit.csv     # 数字冲突清单 / List of conflicting figures
+├── analysis/               # 分析笔记与图表 / Analysis notes and figures
+│   ├── core_comparison_analysis.md
+│   ├── sensitivity_analysis.md
+│   ├── supplementary_analysis_notes.md
+│   └── figures/            # 图(中文标签;英文标签版以 _en 结尾) / Figures (Chinese labels; English-labelled versions end in _en)
+├── scripts/                # Python 计算与作图脚本(含 .ipynb) / Python scripts for calculation and charts (with .ipynb)
+├── reports/
+│   ├── research_report.md      # 英文正式版 / English version (formal)
+│   └── research_report_zh.md   # 中文版(原文) / Chinese version (original)
+├── docs/                   # 数据来源、方法与计划文档 / Data, method and planning documents
 │   ├── data_sources.md
-│   └── data_priority_policy.md
+│   ├── data_priority_policy.md
+│   ├── data_dictionary.md
+│   ├── methodology_notes.md
+│   ├── research_plan.md
+│   └── future_directions.md
 └── logs/                   # 研究日志:观察、猜测与决策过程 / Research log: observations, hypotheses, decisions
     ├── research_log.md
     ├── reflection_2026-08-24_data_rebuild.md
@@ -98,9 +145,9 @@ The data used here are annual time series (e.g. yearly GDP and visitor-volume fi
 >
 > `data/raw/` keeps only one "current" file (clean name, no version/date suffix). Before each update, the file being replaced is moved into `data/raw/archive/` under its original versioned filename rather than being overwritten; the update is logged in [logs/research_log.md](logs/research_log.md).
 >
-> `data/cleaned/`(清洗后数据)与 `analysis/`(分析过程、图表、计算结果)为计划中的目录,尚未创建,将在进入对应阶段后补充。
+> `reports/` 里的英文版 `research_report.md` 是正式版，由中文版 `research_report_zh.md` 翻译而来；两者有出入时以中文版为准。配套的分析笔记、数据字典等文档为中文。
 >
-> `data/cleaned/` (cleaned data) and `analysis/` (analysis workbooks, charts, results) are planned directories not yet created; they will be added once those stages begin.
+> In `reports/`, `research_report.md` is the formal English version, translated from the Chinese `research_report_zh.md`; if they differ, the Chinese version is the reference. The supporting notes and the data dictionary are in Chinese.
 
 ## 数据来源 / Data Sources
 
@@ -109,15 +156,16 @@ The data used here are annual time series (e.g. yearly GDP and visitor-volume fi
 ## 当前研究进度 / Current Progress
 
 - [x] 确定研究主题与仓库搭建 / Defined research topic and set up repository
-- [x] 数据收集与来源核实(核心变量2016-2024已完整核实;2025年为初步数,详见"数据截止说明") / Data collection and source verification (2016–2024 fully verified; 2025 is provisional — see "Data Cutoff Note")
+- [x] 数据收集与来源核实(核心变量2016-2024已完整核实;2025年为初步数,详见"数据截止说明";2026-09-17核实状态更正、2026-09-29单位标注由"万人"更正为"万人次",详见 [docs/data_conflict_audit.csv](docs/data_conflict_audit.csv)) / Data collection and source verification (2016–2024 fully verified; 2025 is provisional — see "Data Cutoff Note"; verification status corrected 2026-09-17, unit label corrected 2026-09-29 — see [docs/data_conflict_audit.csv](docs/data_conflict_audit.csv))
 - [x] 研究问题调整(2026-08-28提出收窄方向,2026-09-15正式定稿最终版本,详见 [logs/reflection_2026-08-28_research_question_pivot.md](logs/reflection_2026-08-28_research_question_pivot.md)) / Research question revised (narrowed 2026-08-28, finalized 2026-09-15)
-- [ ] 描述性分析(指数化对比、比值分析;不做回归,理由见方法论部分) / Descriptive analysis (indexed comparison, ratio analysis; regression intentionally omitted — see methodology)
-- [ ] 报告撰写 / Report writing
+- [x] 描述性分析(指数化对比、同比增长率、基期敏感性检查、补充分析;不做回归,理由见 [docs/methodology_notes.md](docs/methodology_notes.md)) / Descriptive analysis (indexed comparison, YoY growth, base-year sensitivity check, supplementary analysis; regression intentionally omitted — see [docs/methodology_notes.md](docs/methodology_notes.md))
+- [x] 报告撰写与本人理解检查(中文版为原文,初稿完成、交叉复核、本人理解检查均已完成,详见 [reports/research_report_zh.md](reports/research_report_zh.md);英文正式版由中文版翻译而来,详见 [reports/research_report.md](reports/research_report.md)) / Report writing and self-understanding check (the Chinese version is the original; draft, cross-review and self-check all completed — see [reports/research_report_zh.md](reports/research_report_zh.md); the formal English version is translated from it — see [reports/research_report.md](reports/research_report.md))
 - [ ] 2025年数据更新(待《泰安统计年鉴2026》发布,预计2026年11月左右) / 2025 data update (pending *Tai'an Statistical Yearbook 2026*, expected around November 2026)
+- [ ] 后续研究方向(月度数据、行业细分、跨城市对比等,详见 [docs/future_directions.md](docs/future_directions.md),不计入本轮15天计划) / Future research directions (monthly data, industry breakdown, cross-city comparison, etc. — see [docs/future_directions.md](docs/future_directions.md); not part of this 15-day cycle)
 
-> 项目曾于 2026-09-03 至 2026-09-14 期间因学校考试暂停更新,未发生数据变更,详见 [logs/research_log.md](logs/research_log.md)。
+> 项目曾于 2026-09-03 至 2026-09-14 期间因学校考试暂停更新,未发生数据变更,详见 [logs/research_log.md](logs/research_log.md)。原计划2026-10-01至11-12也安排了考试季暂停,但实际因材料提交截止日期优先级更高,未按计划暂停,Day12至Day15连续完成,详见 [docs/research_plan.md](docs/research_plan.md) 变更记录。
 >
-> Project updates were paused 2026-09-03 to 2026-09-14 for school examinations; no data changes occurred during this period — see [logs/research_log.md](logs/research_log.md).
+> Project updates were paused 2026-09-03 to 2026-09-14 for school examinations; no data changes occurred during this period — see [logs/research_log.md](logs/research_log.md). A second pause was originally planned for 2026-10-01 to 11-12, but did not occur in practice because a material-submission deadline took priority; Day 12 through Day 15 were completed without interruption — see the changelog in [docs/research_plan.md](docs/research_plan.md).
 
 ## 关于本仓库 / About This Repository
 
@@ -126,4 +174,4 @@ The data used here are annual time series (e.g. yearly GDP and visitor-volume fi
 This is a personal research project. All data are drawn from publicly available government statistics.
 
 ---
-最后更新 / Last updated: 2026-09-17
+最后更新 / Last updated: 2026-10-01
